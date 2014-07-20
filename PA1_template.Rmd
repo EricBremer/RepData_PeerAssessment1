@@ -196,3 +196,4 @@ There appears to be differences in behaviour between weekdays and weekends.
 
 On weekdays, people are more active in the mornings and sedentary for the day. Activity is more consistent and higher throughout the day on weekends. This is consistent with people travelling to work in the morning and sitting throughout the day on weekdays while being more active,possibly in recreational activites, on the weekends. 
 
+
