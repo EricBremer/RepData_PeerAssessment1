@@ -2,6 +2,7 @@
 output:
   html_document:
     keep_md: yes
+  pdf_document: default
 ---
 # Reproducible Research: Peer Assessment 1
 
@@ -194,7 +195,7 @@ The data frames are bound back together.
 The lattice plotting system was used to create a multipanel plot to compare weekend and weekday activity. 
 
 ```{r echo=TRUE}
-  xyplot(meansteps ~ interval | daytype, data=week, type="l", main="", xlab="Interval", ylab="Average Steps")
+  xyplot(meansteps ~ interval | daytype, data=week, type="l", layout = c(1,2), main="", xlab="Interval", ylab="Average Steps")
 ```
 
 There appears to be differences in behaviour between weekdays and weekends.
