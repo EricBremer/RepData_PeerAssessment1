@@ -343,7 +343,7 @@ The lattice plotting system was used to create a multipanel plot to compare week
 
 
 ```r
-  xyplot(meansteps ~ interval | daytype, data=week, type="l", main="", xlab="Interval", ylab="Average Steps")
+  xyplot(meansteps ~ interval | daytype, data=week, type="l", layout = c(1,2), main="", xlab="Interval", ylab="Average Steps")
 ```
 
 ![plot of chunk unnamed-chunk-19](./PA1_template_files/figure-html/unnamed-chunk-19.png) 
